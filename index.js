@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-const config = require('./config.json')
+require('dotenv').config()
 
 const client = new Discord.Client({
     intents: []
@@ -11,4 +11,4 @@ client.slashCommands = new Discord.Collection()
 require('./Handler/Comandos')(client)
 require('./Handler/Eventos')(client)
 
-client.login(config.token)
+client.login(process.env.TOKEN)
