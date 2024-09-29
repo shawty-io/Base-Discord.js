@@ -5,7 +5,7 @@ Uma simples base de Discord.js com Handler de Eventos e SlashCommands.
 1. Clone este repositório: `git clone https://github.com/shawty-io/Base-Discord.js.git`
 2. Instale às dependências: `npm i`
 
-## ⚙️ Configuração
+### ⚙️ Configuração
 **Token:** Coloque o token do seu bot no arquivo: `.env`
    
 ### ⚖️ Licença
