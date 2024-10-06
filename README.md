@@ -7,6 +7,7 @@ Uma simples base de Discord.js com Handler de Eventos e SlashCommands.
 
 ### ⚙️ Configuração
 **Token:** Coloque o token do seu bot no arquivo: `.env`
+**Inicialização:** Depois de ter colocado o token do bot no `.env`, inicie o bot dando `node .` no terminal.
    
 ### ⚖️ Licença
 Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
