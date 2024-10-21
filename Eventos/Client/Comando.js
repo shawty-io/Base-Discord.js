@@ -7,13 +7,6 @@ client.on("interactionCreate", (interaction) => {
 
         if (!cmd) return interaction.reply(`Error`)
 
-        if(interaction.guild) {
-            interaction["member"] = interaction.guild.members.cache.get(interaction.user.id)
-            cmd.run(client, interaction)
-        } else {
-            cmd.run(client, interaction)
-        }
-
         cmd.run(client, interaction)
     }
 })
