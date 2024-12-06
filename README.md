@@ -8,6 +8,6 @@ Uma simples base de Discord.js com Handler de Eventos e SlashCommands.
 ### ⚙️ Configuração
 **Token:** Coloque o token do seu bot no arquivo: `.env`
 
-Após a configuração, inicie o bot dando `node .`
+Pronto, após a configuração, inicie o bot dando `node .`
 
 ### Obrigado pela visita 🫶
