@@ -1,4 +1,4 @@
-## 🤖 Base para Discord.js
+## 🤖 Base para Discord.js v14
 Uma simples base de Discord.js com Handler de Eventos e SlashCommands.
 
 ### 📥 Instalação
@@ -8,4 +8,6 @@ Uma simples base de Discord.js com Handler de Eventos e SlashCommands.
 ### ⚙️ Configuração
 **Token:** Coloque o token do seu bot no arquivo: `.env`
 
-**Inicialização:** Após colocar o token do bot no `.env`, inicie o bot dando `node .` no terminal.
+Após a configuração, inicie o bot dando `node .`
+
+### Obrigado pela visita 🫶
